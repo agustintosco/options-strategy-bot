@@ -12,7 +12,7 @@ function getTweets() {
                 return reject(err);
             }
             return resolve(data);
-        })
+        }) 
     });
 }
 
@@ -29,3 +29,25 @@ function postRetweet() {
         })
     })
 }
+
+async function main() {
+    try {
+        const data = await getTweets();
+        const tweets = data.statuses;
+        console.log('We got the tweets', tweets.length);
+        for await (let tweet of tweets) {
+            try {
+                await postRetweet(tweet.id_str);
+            } catch(e) {
+                console.log(`Unsuccessful retweet ${tweet.id_str}`);
+            }
+        }
+    } catch(e) {
+        console.error(e);
+    }
+
+}
+
+console.log('Starting the twitter bot ...');
+
+setInterval(main, 3000);
