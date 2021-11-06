@@ -18,7 +18,7 @@ function readParams() {
 function getTweets(since_id) {
     return new Promise((resolve, reject) => {
         let params = {
-            q: '#Planilleros',
+            q: '#PlanillerosArgy',
             count: 10,
         };
         if (since_id) {
