@@ -1,12 +1,14 @@
-<h1 style="width: 100%; display: flex; justify-content: center"> Auto Retweeter Bot </h1>
+# Auto Retweeter Bot
 
-<div style="width: 100%; display: flex; justify-content: center; margin-right: 10px;">
-<img src="https://pbs.twimg.com/profile_images/1456911900273430528/63p-qXSe_400x400.jpg" alt="bot" width="150" height="150"/>
+<div style="width: 100%; display: flex; flex-direction: row; justify-content: center; margin-right: 10px;">
+    <img src="https://pbs.twimg.com/profile_images/1456911900273430528/63p-qXSe_400x400.jpg" alt="bot" width="150" height="150"/>
+    <p style="margin: 15px"> This project is a Twitter bot that retweets every tweet that includes the hashtag you configured. For this particular case, it's used to share Option Trading Strategies for the Argentinian Stock Market.
+    </p>
 </div>
+<div style="width: 100%; display: flex; flex-direction: row; justify-content: left; margin-top: 5px; margin-left: 3px;">
 
-<br/>
-
-This project is a Twitter bot that retweets every tweet that includes the hashtag you configured. For this particular case, it's used to share Option Trading Strategies for the Argentinian Stock Market.
+![Twitter URL](https://img.shields.io/twitter/url.svg?label=Follow%20%40bot_opciones&style=social&url=https%3A%2F%2Ftwitter.com%2bot_opciones)
+</div>
 
 ___
 
