@@ -20,10 +20,10 @@ ______________
 
 ## Usage
 
-Then, just change the `q` attribute of the `params` object and type the hashtag you want the bot to retweet
+Change the `q` attribute of the `params` object and type the hashtag you want the bot to retweet
 
 >
-> **index.js**
+> *index.js*
 >
 >```javascript
 >let params = {
@@ -32,6 +32,22 @@ Then, just change the `q` attribute of the `params` object and type the hashtag 
 >        };
 >```
 >
+
+[ Optional ] 
+If you want to change the interval the bot checks for new tweets, change the second parameter of the `setInterval` function
+
+>
+> *index.js*
+>
+>```javascript
+>setInterval(main, 10000);
+>```
+>
+
+<br/>
+
+Run the `index.js` file
+
 ___
 
 ## Contributing
