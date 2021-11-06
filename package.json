@@ -1,0 +1,25 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "twit": "^2.2.11"
+  },
+  "type": "commonjs",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agustintosco/options-strategy-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agustintosco/options-strategy-bot/issues"
+  },
+  "homepage": "https://github.com/agustintosco/options-strategy-bot#readme"
+}
