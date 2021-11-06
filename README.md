@@ -1,4 +1,10 @@
-# Auto Retweeter Bot
+<h1 style="width: 100%; display: flex; justify-content: center"> Auto Retweeter Bot </h1>
+
+<div style="width: 100%; display: flex; justify-content: center; margin-right: 10px;">
+<img src="https://pbs.twimg.com/profile_images/1456911900273430528/63p-qXSe_400x400.jpg" alt="bot" width="150" height="150"/>
+</div>
+
+<br/>
 
 This project is a Twitter bot that retweets every tweet that includes the hashtag you configured. For this particular case, it's used to share Option Trading Strategies for the Argentinian Stock Market.
 
@@ -9,11 +15,11 @@ ___
 First, just clone the project and install `twit` and `dotenv` packages
 
 ```bash
-git clone https://github.com/agustintosco/options-strategy-bot.git
+$ git clone https://github.com/agustintosco/options-strategy-bot.git
 ```
 
 ```bash
-npm install twit dotenv
+$ npm install twit dotenv
 ```
 
 ______________
