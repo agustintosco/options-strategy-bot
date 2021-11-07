@@ -68,7 +68,6 @@ async function main() {
     } catch(e) {
         console.error(e);
     }
-
 }
 
 console.log('Starting the twitter bot ...');
