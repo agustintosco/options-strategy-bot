@@ -19,7 +19,7 @@ function getTweets(since_id) {
     return new Promise((resolve, reject) => {
         let params = {
             q: '#PlanillerosArgy',
-            count: 10,
+            count: 10
         };
         if (since_id) {
             params.since_id = since_id;
@@ -31,22 +31,22 @@ function getTweets(since_id) {
                 return reject(err);
             }
             return resolve(data);
-        }) 
+        });
     });
 }
 
 function postRetweet(id) {
     return new Promise((resolve, reject) => {
         let params = {
-            id,
+            id
         };
         twit.post('statuses/retweet/:id', params, (err, data) => {
             if (err) {
                 return reject(err);
             }
             return resolve(data);
-        })
-    })
+        });
+    });
 }
 
 async function main() {
