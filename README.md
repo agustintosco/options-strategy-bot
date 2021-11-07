@@ -25,7 +25,7 @@ git clone https://github.com/agustintosco/options-strategy-bot.git
 ```
 
 ```bash
-npm install twit dotenv
+npm install
 ```
 
 ______________
