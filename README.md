@@ -18,7 +18,7 @@ ___
 
 ## Installation
 
-First, just clone the project and install `twit` and `dotenv` packages:
+Clone the project and install dependencies:
 
 ```bash
 git clone https://github.com/agustintosco/options-strategy-bot.git
