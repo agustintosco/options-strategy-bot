@@ -21,11 +21,11 @@ ___
 First, just clone the project and install `twit` and `dotenv` packages:
 
 ```bash
-$ git clone https://github.com/agustintosco/options-strategy-bot.git
+git clone https://github.com/agustintosco/options-strategy-bot.git
 ```
 
 ```bash
-$ npm install twit dotenv
+npm install twit dotenv
 ```
 
 ______________
