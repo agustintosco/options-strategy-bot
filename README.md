@@ -18,7 +18,7 @@ ___
 
 ## Installation
 
-First, just clone the project and install `twit` and `dotenv` packages
+First, just clone the project and install `twit` and `dotenv` packages:
 
 ```bash
 $ git clone https://github.com/agustintosco/options-strategy-bot.git
@@ -32,7 +32,7 @@ ______________
 
 ## Usage
 
-Change the `q` attribute of the `params` object and type the hashtag you want the bot to retweet
+Change the `q` attribute of the `params` object and type the hashtag you want the bot to retweet:
 
 >
 > *index.js*
@@ -46,7 +46,7 @@ Change the `q` attribute of the `params` object and type the hashtag you want th
 >
 
 [ Optional ] 
-If you want to change the interval the bot checks for new tweets, change the second parameter of the `setInterval` function
+If you want to change the interval the bot checks for new tweets, change the second parameter of the `setInterval` function:
 
 >
 > *index.js*
@@ -58,7 +58,11 @@ If you want to change the interval the bot checks for new tweets, change the sec
 
 <br/>
 
-Run the `index.js` file
+Last but not least, create a `.env` file and include your authentication data. Check `env-example` file for information.
+
+<br/>
+
+Run the `index.js` file.
 
 ___
 
